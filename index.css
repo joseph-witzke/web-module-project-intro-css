@@ -22,11 +22,14 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
     body{
         font-size: 1.6rem;
         line-height: 1.5;
-        font-family: 'Roboto Mono,' monospace;
+        font-family: 'Roboto Mono', monospace;
     } 
     h1{
         font-family: 'Chelsea Market', cursive;
         font-size: 6rem;
+    }
+    h2{
+        font-family: 'Roboto Mono', monospace;
     }
     a{
         text-decoration: none;
@@ -43,7 +46,49 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
         border-radius: 10px;
         padding: 1% 0;
         text-align: center;
-        margin: auto;
+    }
+    .orange{
+        background-color: #FF764E;
+        margin-left: 10%;
+    }
+    .blue{
+        background-color: #5ED3EB;
+        margin: 0 24%;
+    }
+    .yellow{
+        background-color: #FFCD69;
+        margin-right: 105;
+    }
+    .first-section img{
+        border-radius: 50%;
+        margin: 100px;
+        heigth: 300px;
+        width: 300px;
+        
+    }
+    .second-section{
+        font-family: 'Roboto Mono', monospace;
+        font-size: 2rem;
+        color: white;
+        background-color: tan;
+        text-align: center;
+        
+    }
+    .third-section img{
+        display: block;
+        width: 15rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .third-section p{
+        text-align: center;
+        display: block;
+        padding: 2%;
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+    footer{
+        background-color: #F9E7DC;
     }
 
 
